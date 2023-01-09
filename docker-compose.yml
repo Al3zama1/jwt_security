@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  database:
+    image: postgres:15.1
+    environment:
+      - POSTGRES_USER=test
+      - POSTGRES_PASSWORD=test
+      - POSTGRES_DB=jwt_security
+    ports:
+      - "5432:5431"
+
