@@ -7,5 +7,5 @@ services:
       - POSTGRES_PASSWORD=test
       - POSTGRES_DB=jwt_security
     ports:
-      - "5432:5431"
+      - "5432:5432"
 
